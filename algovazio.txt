@@ -1,1 +1,9 @@
 pip install selenium
+informaçoes uteis
+
+esta url tem os dados do ultimo grafic(oferta e demanda)
+https://steamcommunity.com/market/itemordershistogram?country=BR&language=brazilian&currency=1&item_nameid=176096390&two_factor=0
+
+
+esta url tem informçao de quem anuncia os itemns em "tempo real"
+https://steamcommunity.com/market/itemordersactivity?country=BR&language=brazilian&currency=1&item_nameid=176096390&two_factor=0
