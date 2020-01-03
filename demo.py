@@ -2,6 +2,7 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 import time
 import re
+import Item
 path  = r'.\chromedriver.exe'
 browser = webdriver.Chrome(executable_path = path)
 browser.get("https://steamcommunity.com/market/listings/730/Shattered%20Web%20Case")
@@ -16,6 +17,8 @@ raw_objects=re.findall(r"\[(.*?)\],",raw_price_string)
 for obj in raw_objects:
 	print("os dados são------>"+obj)
 
+id_test=re.findall(r"Market_LoadOrderSpread\((.*?)\)",raw_page_string)[0]
+print(id_test)
 
 '''
 for i in range(10):
